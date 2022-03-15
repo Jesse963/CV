@@ -1,0 +1,35 @@
+.cloud.container {
+  display: grid;
+  grid-template-columns: repeat(4, 11rem);
+  text-align: center;
+  position: relative;
+  /* gap: 1rem; */
+}
+
+.cloud.container::after {
+  content: "";
+  z-index: 1;
+  background-color: var(--main_colour);
+  position: absolute;
+  width: 100%;
+  height: 1%;
+  top: 0;
+  left: 0;
+}
+
+.skill.item {
+  color: #aaa;
+  background-color: white;
+  font-size: 1.5rem;
+  border-radius: 12px;
+  width: max-content;
+  padding: 2rem 0;
+  transition: 0.3s ease-in-out;
+}
+
+.skill.item:hover {
+  color: var(--main_colour);
+  transition: 0.3s ease-in-out;
+  /* font-size: 2.05rem; */
+  width: max-content;
+}

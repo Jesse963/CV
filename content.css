@@ -1,0 +1,70 @@
+body {
+  background: rgb(236, 236, 236);
+}
+
+.main.content {
+  background-color: white;
+  /* margin: 0 auto; */
+  margin: 5rem auto;
+  max-width: 80ch;
+  padding: 1rem 3rem;
+  box-shadow: 6px 8px 5px 5px rgba(136, 136, 136, 0.35);
+}
+
+.main.content h2 {
+  color: var(--main_colour);
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.main.content h3 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+.main.content h4 {
+  font-size: 1.75rem;
+  margin-bottom: 0;
+}
+.main.content h5 {
+  font-size: 1.75rem;
+  margin-bottom: 0;
+  color: var(--main_colour);
+}
+.dates {
+  font-size: 1.5rem;
+  margin-top: 0.2rem;
+  color: #000 !important;
+}
+
+#introName {
+  font-size: 3rem;
+  margin-bottom: 0;
+}
+
+.main.content p,
+.main.content li {
+  font-size: 1.5rem;
+  color: #888;
+}
+
+.role.content {
+  display: flex;
+  flex-direction: row;
+}
+
+.panel {
+  margin: 0 5% 0 0;
+  width: 50%;
+}
+
+em {
+  color: black;
+  font-style: normal;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.results li,
+.education li {
+  padding-bottom: 1rem;
+}

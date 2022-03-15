@@ -1,0 +1,16 @@
+body {
+  margin: 0px;
+  width: 100%;
+  font-family: "Comfortaa";
+  --footer_height: 5vh;
+  --header_height: 5vh;
+  --main_colour: #09a;
+  overflow-y: auto;
+}
+
+main {
+  width: 65%;
+  margin: 0 auto;
+  min-height: 80vh;
+  /* margin-bottom: calc(-1 * var(--footer_height)); */
+}
