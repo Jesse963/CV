@@ -8,7 +8,7 @@ body {
   margin: 5rem auto;
   max-width: 80ch;
   padding: 1rem 3rem;
-  box-shadow: 6px 8px 5px 5px rgba(136, 136, 136, 0.35);
+  box-shadow: var(--shadow);
 }
 
 .main.content h2 {
@@ -30,6 +30,16 @@ body {
   margin-bottom: 0;
   color: var(--main_colour);
 }
+
+a {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: var(--main_colour);
+}
+a:hover {
+  color: black;
+}
+
 .dates {
   font-size: 1.5rem;
   margin-top: 0.2rem;
@@ -65,6 +75,22 @@ em {
 }
 
 .results li,
-.education li {
+.education li,
+.contributions li {
   padding-bottom: 1rem;
+}
+
+p {
+  line-height: 2rem;
+}
+
+@media screen and (max-width: 700px) {
+  .main.content {
+    margin: 2rem auto;
+    padding: 1.5rem;
+  }
+  .main.content h2 {
+    font-size: 3.5rem;
+    margin-top: 1.5rem;
+  }
 }

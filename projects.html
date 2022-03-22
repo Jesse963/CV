@@ -14,6 +14,9 @@
     <link rel="stylesheet" href="header.css" />
     <link rel="stylesheet" href="content.css" />
     <link rel="stylesheet" href="footer.css" />
+    <link rel="stylesheet" href="skills.css" />
+    <link rel="stylesheet" href="projects.css" />
+    <script src="renderProjects.js" defer></script>
     <script src="script.js" defer></script>
     <title>Document</title>
   </head>
@@ -25,17 +28,15 @@
         </h1>
         <div class="links">
           <p>|</p>
-          <a class="intro selected" href="index.html">Intro</a>
+          <a class="intro" href="index.html">Intro</a>
           <p>|</p>
-          <a href="skills.html">Skills</a>
+          <a class="selected" href="skills.html">Skills</a>
           <p>|</p>
           <a href="education.html">Education</a>
           <p>|</p>
           <a href="experience.html">Work Experience</a>
           <p>|</p>
           <a href="activities.html">Other Activities</a>
-          <p>|</p>
-          <a href="projects.html">Projects</a>
           <p>|</p>
           <a id="download" href="">Download Resume</a>
           <p>|</p>
@@ -50,36 +51,12 @@
     </header>
     <main>
       <section class="main content">
-        <h2>Hey!</h2>
-        <div class="intro">
-          <p id="introName">I'm Jesse,</p>
-          <div class="intro content">
-            <p>
-              A Robotic Process Automation developer looking to
-              <em>pivot to web development.</em>
-            </p>
-            <p>
-              Through university, professional and personal projects I have
-              become <em> proficient in a wide range of languages </em>and
-              frameworks including Javascript, React, HTML, CSS and
-              <a href="skills.html">many more!</a>
-            </p>
-            <p>
-              Having experience with so many languages has made me very
-              <em> adaptable</em> to new development environments and tech
-              stacks.
-            </p>
-            <p>
-              When I'm not in the IDE I'm in the Dojo teaching karate or on a
-              rock wall struggling not to slip.
-            </p>
-            <p><em>If you're looking to get in touch you can:</em></p>
-            <p><a href="mailto:jesse-jenkins@hotmail.com">Email Here!</a></p>
-            <p>
-              <a href="tel:+61415927738">Call Here!</a>
-            </p>
-          </div>
-        </div>
+        <h2>Projects</h2>
+        <p>
+          Below you'll find a few of the projects I have worked on. Each was
+          designed and developed entirely by me
+        </p>
+        <div class="project list container"></div>
       </section>
     </main>
     <footer>

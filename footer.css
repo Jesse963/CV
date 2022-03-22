@@ -50,3 +50,16 @@ footer::before {
   font-size: 2rem;
   color: var(--main_colour);
 }
+
+@media screen and (max-width: 700px) {
+  footer {
+    padding: 0;
+  }
+  footer nav {
+    flex-direction: column;
+  }
+  footer nav div {
+    margin-left: 0 !important;
+    margin-bottom: 1rem;
+  }
+}

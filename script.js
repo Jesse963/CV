@@ -1,5 +1,5 @@
 const header = document.querySelector(".header.name");
-const content = document.querySelector(".main.content");
+const content = document.querySelector(".main.content h2");
 
 const observer = new IntersectionObserver(
   (entries, observer) => {
@@ -11,7 +11,8 @@ const observer = new IntersectionObserver(
     console.log(entries[0].isIntersecting);
     console.log(entries[0].intersectionRatio);
   },
-  { rootMargin: "-500px" }
+  { rootMargin: "-200px" }
 );
 
+console.log(observer);
 observer.observe(content);

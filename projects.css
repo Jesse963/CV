@@ -1,0 +1,33 @@
+.project.details {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+
+.project.details p,
+.project.details a {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+  text-decoration: none;
+}
+.project.details a {
+  color: var(--main_colour);
+}
+
+.project.details a:hover {
+  color: black;
+}
+
+.image.container {
+  border: 1px solid #aaa;
+  box-shadow: var(--shadow);
+  width: 100%;
+  aspect-ratio: 1920/1080;
+  margin-bottom: 1rem;
+}
+
+.image.container img {
+  width: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
