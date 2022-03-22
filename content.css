@@ -49,6 +49,7 @@ a:hover {
 #introName {
   font-size: 3rem;
   margin-bottom: 0;
+  color: var(--main_colour);
 }
 
 .main.content p,
@@ -82,6 +83,12 @@ em {
 
 p {
   line-height: 2rem;
+}
+.signature {
+  color: black !important;
+  font-family: "Luxurious Script", cursive;
+  font-size: 3rem !important;
+  margin-top: 0px;
 }
 
 @media screen and (max-width: 700px) {

@@ -1,7 +1,8 @@
 footer {
   background-color: #333;
   /* height: var(--footer_height); */
-  padding: 0 0 2rem 17.5%;
+  /* padding: 0 0 2rem 17.5%; */
+  padding: 0 5rem 2rem 5rem;
   position: sticky;
 }
 
@@ -23,6 +24,11 @@ footer::before {
   text-align: left;
 }
 
+footer .links,
+footer .contact {
+  width: 25rem !important;
+}
+
 .footer.links a,
 .contact p {
   position: relative;
@@ -36,7 +42,6 @@ footer::before {
 .contact {
   display: flex;
   flex-direction: column;
-  margin-left: 8rem;
 }
 
 .footer.links a::after {
@@ -51,12 +56,19 @@ footer::before {
   color: var(--main_colour);
 }
 
+footer nav {
+  justify-content: center;
+  gap: 5rem;
+  align-items: baseline;
+}
+
 @media screen and (max-width: 700px) {
   footer {
     padding: 0;
   }
   footer nav {
     flex-direction: column;
+    align-items: baseline;
   }
   footer nav div {
     margin-left: 0 !important;
