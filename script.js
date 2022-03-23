@@ -2,8 +2,6 @@ const header = document.querySelector(".header.name");
 const content = document.querySelector(".main.content h2");
 const burgerIcon = document.querySelector("header svg");
 
-console.log(burgerIcon);
-
 const observer = new IntersectionObserver(
   (entries, observer) => {
     const nav = document.querySelector("header nav ");
@@ -19,8 +17,6 @@ const observer = new IntersectionObserver(
   },
   { rootMargin: "-200px" }
 );
-
-console.log(observer);
 observer.observe(content);
 
 burgerIcon.addEventListener("click", () => {

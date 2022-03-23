@@ -3,12 +3,16 @@ body {
 }
 
 .main.content {
+  transition: 0.2s;
   background-color: white;
   /* margin: 0 auto; */
   margin: 5rem auto;
   max-width: 80ch;
   padding: 1rem 3rem;
   box-shadow: var(--shadow);
+
+  transform: translateX(20%);
+  opacity: 0;
 }
 
 .main.content h2 {
