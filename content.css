@@ -10,7 +10,9 @@ body {
   max-width: 80ch;
   padding: 1rem 3rem;
   box-shadow: var(--shadow);
-
+}
+.main.content *:not(div, li) {
+  transition: 0.3s;
   transform: translateX(20%);
   opacity: 0;
 }
